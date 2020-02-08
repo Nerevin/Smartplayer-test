@@ -1,6 +1,9 @@
 import './index.scss';
-import {Url} from './url';
 import {pageGenere} from './pageGeneration';
+import {randomPhoto} from './randomPhoto';
+import {click} from './imageClick'
 
 pageGenere();
+onclick = click;
+window.onload = randomPhoto;
 
